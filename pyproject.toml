@@ -1,0 +1,25 @@
+[build-system]
+requires = ["briefcase"]
+
+[tool.briefcase]
+project_name = "Hello World"
+bundle = "org.asheesh"
+version = "0.0.1"
+url = "http://example.com/"
+license = "BSD license"
+author = 'Asheesh Laroia'
+author_email = "asheesh@asheesh.org"
+
+[tool.briefcase.app.helloworld]
+formal_name = "Hello World"
+description = "My first application"
+icon = "src/helloworld/resources/helloworld"
+sources = ['src/helloworld']
+requires = []
+
+
+[tool.briefcase.app.helloworld.android]
+requires = [
+    '/Users/asheesh/projects/beeware/beeware-tutorial/toga/src/core',
+    '/Users/asheesh/projects/beeware/beeware-tutorial/toga/src/android',
+]

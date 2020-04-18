@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: helloworld
+Formal-Name: Hello World
+App-ID: org.asheesh.helloworld
+Version: 0.0.1
+Home-page: http://example.com/
+Author: Asheesh Laroia
+Author-email: asheesh@asheesh.org
+Summary: My first application
