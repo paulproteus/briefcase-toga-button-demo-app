@@ -57,6 +57,9 @@ var/
 ## mpeltonen/sbt-idea plugin
 .idea_modules/
 
+# Ignore VSCode config
+.vscode
+
 # Briefcase build directories
 iOS/
 macOS/
