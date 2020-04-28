@@ -18,6 +18,12 @@ sources = ['src/helloworld']
 requires = []
 
 
+[tool.briefcase.app.helloworld.macOS]
+requires = [
+    '/Users/asheesh/projects/beeware/beeware-tutorial/toga/src/core',
+    '/Users/asheesh/projects/beeware/beeware-tutorial/toga/src/cocoa',
+]
+
 [tool.briefcase.app.helloworld.android]
 requires = [
     '/Users/asheesh/projects/beeware/beeware-tutorial/toga/src/core',
