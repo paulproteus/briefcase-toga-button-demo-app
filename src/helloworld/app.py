@@ -19,9 +19,6 @@ class HelloWorld(toga.App):
         """
         print('Hello from HelloWorld.startup()')
         main_box = toga.Box(style=None)
-        class Refreshable:
-            refresh = lambda *args, **kwargs: None
-        main_box._root = Refreshable  # Hack: Avoiding layout
         button = toga.Button(
             "Say Hello!",
             on_press=self.say_hello,
